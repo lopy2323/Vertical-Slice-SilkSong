@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 88dd7217d0131b64bb1fb919f7a8836f
+guid: cc99351b8fc506047aa6d3691c412948
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6211488622371406901
-    second: magma bell_0
+      213: 6147376732419732928
+    second: magma bell 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: magma bell_0
+      name: magma bell 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 252
-        height: 252
+        width: 235
+        height: 236
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bcbfb21020c5cc9a0800000000000000
-      internalID: -6211488622371406901
+      spriteID: 0c53164619edf4550800000000000000
+      internalID: 6147376732419732928
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      magma bell_0: -6211488622371406901
+      magma bell 1_0: 6147376732419732928
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
