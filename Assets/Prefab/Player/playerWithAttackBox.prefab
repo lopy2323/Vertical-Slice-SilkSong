@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5552496062504604960}
   - component: {fileID: 3025264485124848240}
-  - component: {fileID: 8441644226881182627}
   m_Layer: 0
   m_Name: playerWithAttackBox
   m_TagString: Untagged
@@ -49,19 +48,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Attack
   attackBox: {fileID: 3324902928780834639}
   attackDuration: 0.2
---- !u!114 &8441644226881182627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 956816480234780770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1c4fadf41a52484bb3bc6d1ecb48cf3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::playerMovement
-  speed: 0.05
 --- !u!1 &2434130208520028661
 GameObject:
   m_ObjectHideFlags: 0
