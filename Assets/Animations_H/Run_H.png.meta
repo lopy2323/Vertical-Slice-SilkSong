@@ -115,12 +115,12 @@ TextureImporter:
       name: Run_H_0
       rect:
         serializedVersion: 2
-        x: 128
-        y: 702
-        width: 348
-        height: 414
+        x: 0
+        y: 600
+        width: 600
+        height: 600
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -137,12 +137,12 @@ TextureImporter:
       name: Run_H_1
       rect:
         serializedVersion: 2
-        x: 729
-        y: 706
-        width: 345
-        height: 413
+        x: 600
+        y: 600
+        width: 600
+        height: 600
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,12 +159,12 @@ TextureImporter:
       name: Run_H_2
       rect:
         serializedVersion: 2
-        x: 137
-        y: 107
-        width: 333
-        height: 409
+        x: 0
+        y: 0
+        width: 600
+        height: 600
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -181,12 +181,12 @@ TextureImporter:
       name: Run_H_3
       rect:
         serializedVersion: 2
-        x: 730
-        y: 105
-        width: 341
-        height: 411
+        x: 600
+        y: 0
+        width: 600
+        height: 600
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -199,33 +199,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Run_H_4
-      rect:
-        serializedVersion: 2
-        x: 1064
-        y: 160
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1e267563d7c7f4510800000000000000
-      internalID: 1535582875181081313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1177f4957a880c04db61c39be1f01895
     internalID: 0
     vertices: []
     indices: 
@@ -233,13 +211,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":2.0},"gridSpriteSize":{"x":600.0,"y":600.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Run_H_0: -2648930107869397336
       Run_H_1: -6730868064772120612
       Run_H_2: -1727934734954404216
       Run_H_3: -890122186023899867
-      Run_H_4: 1535582875181081313
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
