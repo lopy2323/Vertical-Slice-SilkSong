@@ -45,7 +45,7 @@ public class SimplePlayerMovement : MonoBehaviour
             coyoteCounter -= Time.deltaTime;
 
         // ---- JUMP BUFFER ----
-        if (Input.GetKeyDown("w"))
+        if (Input.GetKeyDown("space"))
             jumpBufferCounter = jumpBufferTime;
         else
             jumpBufferCounter -= Time.deltaTime;
@@ -60,7 +60,7 @@ public class SimplePlayerMovement : MonoBehaviour
         }
 
         // ---- VARIABLE JUMP HEIGHT ----
-        if (Input.GetKey("w") && isJumping)
+        if (Input.GetKey("space") && isJumping)
         {
             if (jumpTimeCounter > 0f)
             {
