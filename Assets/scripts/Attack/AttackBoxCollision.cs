@@ -14,8 +14,8 @@ public class AttackBoxCollision : MonoBehaviour
         
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            //Event flag!
             OnPlayerAttackHit?.Invoke();
-            //Add EventFlag here
         }
     }
 }

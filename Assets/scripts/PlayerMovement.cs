@@ -74,7 +74,7 @@ public class SimplePlayerMovement : MonoBehaviour
         }
 
         // ---- EIND JUMP ALS JE LOSLAAT ----
-        if (Input.GetKeyUp("w"))
+        if (Input.GetKeyUp("space"))
         {
             isJumping = false;
         }
