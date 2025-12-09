@@ -16,6 +16,7 @@ public class Enemy : MonoBehaviour
     {              //Als het bericht binnenkomt dat de enemy dood is voeren we de functie uit
         Debug.Log("Enemy Hit");
 
-            enemyRigidbody.AddForce(moveDirection * -1f);
+        //enemyRigidbody.AddForce(moveDirection * -1f);
+        GameObject.Destroy(this.gameObject);
     }
 }
