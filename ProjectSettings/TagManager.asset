@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - AttackBox
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -40,6 +42,21 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Behind2
+    uniqueID: 3937067217
+    locked: 0
+  - name: Behind1
+    uniqueID: 3558651639
+    locked: 0
+  - name: Sprite
+    uniqueID: 293460245
+    locked: 0
+  - name: Front1
+    uniqueID: 241245031
+    locked: 0
+  - name: Front2
+    uniqueID: 2915725821
     locked: 0
   m_RenderingLayers:
   - Default
