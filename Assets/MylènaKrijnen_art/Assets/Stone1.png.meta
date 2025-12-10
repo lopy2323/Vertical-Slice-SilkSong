@@ -1,25 +1,13 @@
 fileFormatVersion: 2
-guid: 4161f3d8c31aa6340b7a970a40058c2f
+guid: b486ea8bcc9ea6b4d84eb3fd1463be73
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6014458977865729719
-    second: Spin_H_0
+      213: 1572739284480575744
+    second: Stone1_0
   - first:
-      213: 1036804042805629650
-    second: Spin_H_1
-  - first:
-      213: -4725607043448731289
-    second: Spin_H_2
-  - first:
-      213: 7788183189227091185
-    second: Spin_H_3
-  - first:
-      213: 4532048277656900632
-    second: Spin_H_4
-  - first:
-      213: -5179908411501197095
-    second: Spin_H_5
+      213: 2070746301808500579
+    second: Stone1_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -111,93 +99,62 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spin_H_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 600
-        width: 600
-        height: 600
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9497724fc69588ca0800000000000000
-      internalID: -6014458977865729719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spin_H_1
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 600
-        width: 600
-        height: 600
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d25e11a8c7736e00800000000000000
-      internalID: 1036804042805629650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spin_H_2
+      name: Stone1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 600
-        height: 600
+        width: 696
+        height: 1771
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 769872b6e654b6eb0800000000000000
-      internalID: -4725607043448731289
+      spriteID: 00944c7eb0e73d510800000000000000
+      internalID: 1572739284480575744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spin_H_3
+      name: Stone1_1
       rect:
         serializedVersion: 2
-        x: 600
-        y: 0
-        width: 600
-        height: 600
+        x: 276
+        y: 228
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f4bc87d85f251c60800000000000000
-      internalID: 7788183189227091185
+      spriteID: 36fdf3b4ac4ccbc10800000000000000
+      internalID: 2070746301808500579
       vertices: []
       indices: 
       edges: []
@@ -216,10 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Spin_H_0: -6014458977865729719
-      Spin_H_1: 1036804042805629650
-      Spin_H_2: -4725607043448731289
-      Spin_H_3: 7788183189227091185
+      Stone1_0: 1572739284480575744
+      Stone1_1: 2070746301808500579
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
