@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6c92d895994f59b4485a5c6b5c3cdd7f
+guid: db0b21a063c03124f8e23956559ebe0b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1095915745997019415
-    second: ability&healing bar_0
+      213: -1588792061686171292
+    second: daggers_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ability&healing bar_0
+      name: daggers_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 568
-        height: 288
+        width: 328
+        height: 360
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 719d8e78099753f00800000000000000
-      internalID: 1095915745997019415
+      spriteID: 4693c35a90a73f9e0800000000000000
+      internalID: -1588792061686171292
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ability&healing bar_0: 1095915745997019415
+      daggers_0: -1588792061686171292
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
