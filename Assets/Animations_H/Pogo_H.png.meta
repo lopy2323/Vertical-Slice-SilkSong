@@ -387,8 +387,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-
-    spriteID: e7732fbc2f363d14dbc995c81e30df9f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -396,9 +395,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":600.0,"y":600.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
       Pogo_H_0: -3263153076064283850
       Pogo_H_1: 6522612271876074994

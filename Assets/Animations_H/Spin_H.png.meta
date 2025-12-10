@@ -206,9 +206,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-
-    spriteID: 3b1e4b5e3c2ed6d4794c1d61872931a2
-    
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -216,9 +214,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":2.0},"gridSpriteSize":{"x":600.0,"y":600.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
       Spin_H_0: -6014458977865729719
       Spin_H_1: 1036804042805629650
