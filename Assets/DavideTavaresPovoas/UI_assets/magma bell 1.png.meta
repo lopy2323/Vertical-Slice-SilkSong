@@ -1,25 +1,10 @@
 fileFormatVersion: 2
-guid: 4161f3d8c31aa6340b7a970a40058c2f
+guid: cc99351b8fc506047aa6d3691c412948
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6014458977865729719
-    second: Spin_H_0
-  - first:
-      213: 1036804042805629650
-    second: Spin_H_1
-  - first:
-      213: -4725607043448731289
-    second: Spin_H_2
-  - first:
-      213: 7788183189227091185
-    second: Spin_H_3
-  - first:
-      213: 4532048277656900632
-    second: Spin_H_4
-  - first:
-      213: -5179908411501197095
-    second: Spin_H_5
+      213: 6147376732419732928
+    second: magma bell 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,89 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spin_H_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 600
-        width: 600
-        height: 600
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9497724fc69588ca0800000000000000
-      internalID: -6014458977865729719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spin_H_1
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 600
-        width: 600
-        height: 600
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d25e11a8c7736e00800000000000000
-      internalID: 1036804042805629650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spin_H_2
+      name: magma bell 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 600
-        height: 600
+        width: 235
+        height: 236
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 769872b6e654b6eb0800000000000000
-      internalID: -4725607043448731289
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spin_H_3
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 0
-        width: 600
-        height: 600
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1f4bc87d85f251c60800000000000000
-      internalID: 7788183189227091185
+      spriteID: 0c53164619edf4550800000000000000
+      internalID: 6147376732419732928
       vertices: []
       indices: 
       edges: []
@@ -206,9 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-
-    spriteID: 3b1e4b5e3c2ed6d4794c1d61872931a2
-    
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -216,14 +133,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":2.0},"gridSpriteSize":{"x":600.0,"y":600.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Spin_H_0: -6014458977865729719
-      Spin_H_1: 1036804042805629650
-      Spin_H_2: -4725607043448731289
-      Spin_H_3: 7788183189227091185
+      magma bell 1_0: 6147376732419732928
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

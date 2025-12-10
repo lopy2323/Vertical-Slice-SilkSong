@@ -1,7 +1,9 @@
+using System;
 using UnityEngine;
 
 public class AttackBoxCollision : MonoBehaviour
 {
+    public static event Action OnPlayerAttackHit; //Definitie van een Action Event
     void Update()
     {
         
@@ -12,8 +14,8 @@ public class AttackBoxCollision : MonoBehaviour
         
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            
-            //Add EventFlag here
+            //Event flag!
+            OnPlayerAttackHit?.Invoke();
         }
     }
 }

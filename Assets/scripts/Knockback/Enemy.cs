@@ -1,25 +1,21 @@
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.UIElements;
 
 public class Enemy : MonoBehaviour
 {
-    public float knockbackForce = 10f;
+    [SerializeField] private Rigidbody2D enemyRigidbody;
+    [SerializeField] private Vector3 moveDirection;
 
-    public Rigidbody2D rb;
-
-    private void OnCollisionEnter2D(Collision2D collision)
-
+    private void Start()
     {
 
-        if (collision.gameObject.CompareTag("AttackBox"))
+        AttackBoxCollision.OnPlayerAttackHit += GetEnemyPoints;
+    }
+    private void GetEnemyPoints()
+    {              //Als het bericht binnenkomt dat de enemy dood is voeren we de functie uit
+        Debug.Log("Enemy Hit");
 
-        {
-
-            //Vector2 knockbackDirection = (rb.position - (Vector2)collision.transform.position).normalized;
-
-            //rb.AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
-
-            Debug.Log("Player hit by enemy");
-
-        }
+            enemyRigidbody.AddForce(moveDirection * -1f);
     }
 }
