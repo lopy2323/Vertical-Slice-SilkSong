@@ -1,16 +1,19 @@
 fileFormatVersion: 2
-guid: 4772f82e49014f64b8c6deed2cc9f2d3
+guid: 9f7fb7cecc1b2e6439a9581c7e0b0323
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 120293247617361361
-    second: start screen top text deco_0
+      213: 5019149164114983111
+    second: start screen bottom text deco_0
   - first:
-      213: 2911040113905166968
-    second: start screen top text deco_1
+      213: 8527776252744394378
+    second: start screen bottom text deco_1
   - first:
-      213: 5908343310475364980
-    second: start screen top text deco_2
+      213: 1639465366913402166
+    second: start screen bottom text deco_2
+  - first:
+      213: 8740990305358324859
+    second: start screen bottom text deco_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: start screen top text deco_0
+      name: start screen bottom text deco_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 3528
-        height: 616
+        width: 2871
+        height: 301
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d56c15421e5ba100800000000000000
-      internalID: 120293247617361361
+      spriteID: 7c8b5c9729997a540800000000000000
+      internalID: 5019149164114983111
       vertices: []
       indices: 
       edges: []
@@ -131,7 +134,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e7ae48caa9957894f977333b7298ea0a
+    spriteID: 89d545e6ad9084b4a94748980217db0f
     internalID: 0
     vertices: []
     indices: 
@@ -141,9 +144,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      start screen top text deco_0: 120293247617361361
-      start screen top text deco_1: 2911040113905166968
-      start screen top text deco_2: 5908343310475364980
+      start screen bottom text deco_0: 5019149164114983111
+      start screen bottom text deco_1: 8527776252744394378
+      start screen bottom text deco_2: 1639465366913402166
+      start screen bottom text deco_3: 8740990305358324859
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
