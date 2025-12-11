@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5520717605748035757}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.025483312, y: -0.032983284, z: 0.00084126345, w: 0.9991306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -44,7 +44,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -247,7 +247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5080108534088880508, guid: 7277e269ece2a6242bf69c34fe01ccfb, type: 3}
       propertyPath: moveForce
-      value: 500
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5080108534088880508, guid: 7277e269ece2a6242bf69c34fe01ccfb, type: 3}
       propertyPath: attackDuration
@@ -257,6 +257,10 @@ PrefabInstance:
       propertyPath: playerRigidbody
       value: 
       objectReference: {fileID: 1967182833538149761}
+    - target: {fileID: 5080108534088880508, guid: 7277e269ece2a6242bf69c34fe01ccfb, type: 3}
+      propertyPath: playerGameObject
+      value: 
+      objectReference: {fileID: 8757469710358740801}
     - target: {fileID: 5080108534088880508, guid: 7277e269ece2a6242bf69c34fe01ccfb, type: 3}
       propertyPath: groundLayer.m_Bits
       value: 8
@@ -275,7 +279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5442076947797606650, guid: 7277e269ece2a6242bf69c34fe01ccfb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.5
+      value: 1.53
       objectReference: {fileID: 0}
     - target: {fileID: 5442076947797606650, guid: 7277e269ece2a6242bf69c34fe01ccfb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -363,15 +367,64 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5442076947797606650, guid: 7277e269ece2a6242bf69c34fe01ccfb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8334624404186826417}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2626043493762867546, guid: 7277e269ece2a6242bf69c34fe01ccfb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 914728523110046756}
+    - targetCorrespondingSourceObject: {fileID: 103625887987630445, guid: 7277e269ece2a6242bf69c34fe01ccfb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2989005892205852351}
   m_SourcePrefab: {fileID: 100100000, guid: 7277e269ece2a6242bf69c34fe01ccfb, type: 3}
 --- !u!50 &1967182833538149761 stripped
 Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 462303153333832658, guid: 7277e269ece2a6242bf69c34fe01ccfb, type: 3}
   m_PrefabInstance: {fileID: 2100568696149255763}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2041994490830497598 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 103625887987630445, guid: 7277e269ece2a6242bf69c34fe01ccfb, type: 3}
+  m_PrefabInstance: {fileID: 2100568696149255763}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2989005892205852351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041994490830497598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f21690189af9941409741a55f6d14e3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::pogo
+  playerRigidbody: {fileID: 1967182833538149761}
+  pogoForce: 2000
+--- !u!1 &4131820375447045897 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2626043493762867546, guid: 7277e269ece2a6242bf69c34fe01ccfb, type: 3}
+  m_PrefabInstance: {fileID: 2100568696149255763}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &914728523110046756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4131820375447045897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f21690189af9941409741a55f6d14e3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::pogo
+  playerRigidbody: {fileID: 1967182833538149761}
+  pogoForce: 2000
 --- !u!4 &6242160877959227049 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5442076947797606650, guid: 7277e269ece2a6242bf69c34fe01ccfb, type: 3}
+  m_PrefabInstance: {fileID: 2100568696149255763}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8757469710358740801 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7254859559601494290, guid: 7277e269ece2a6242bf69c34fe01ccfb, type: 3}
   m_PrefabInstance: {fileID: 2100568696149255763}
   m_PrefabAsset: {fileID: 0}
