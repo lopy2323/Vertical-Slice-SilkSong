@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: b3e80fb194f23f34a86b9118f848d4a7
+guid: a0573fb30d7618942ab4ea26bf368daa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2429919002490121231
-    second: arrows_0
+      213: -5448196186523468547
+    second: pauze menu frame__0
   - first:
-      213: 67926103340967526
-    second: arrows_1
+      213: 5712122675905126639
+    second: pauze menu frame__1
   - first:
-      213: -2938970880757876879
-    second: arrows_2
+      213: -493014436068578839
+    second: pauze menu frame__2
   - first:
-      213: 5635105361348811957
-    second: arrows_3
+      213: 8974622511625500737
+    second: pauze menu frame__3
   - first:
-      213: -6198066232139300319
-    second: arrows_4
+      213: -1074459024636251151
+    second: pauze menu frame__4
   - first:
-      213: -4500868321734961790
-    second: arrows_5
+      213: 8042932831943195749
+    second: pauze menu frame__5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,13 +115,35 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: arrows_0
+      name: pauze menu frame__0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2729
+        width: 3964
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc71a32f6e1464b0800000000000000
+      internalID: -5448196186523468547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pauze menu frame__1
       rect:
         serializedVersion: 2
         x: 0
-        y: 312
-        width: 790
-        height: 453
+        y: 56
+        width: 1935
+        height: 466
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,86 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f3da9f9a81374ed0800000000000000
-      internalID: -2429919002490121231
+      spriteID: fe067c24f49854f40800000000000000
+      internalID: 5712122675905126639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arrows_1
+      name: pauze menu frame__2
       rect:
         serializedVersion: 2
-        x: 458
-        y: 619
-        width: 361
-        height: 459
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6666d9c5e6251f000800000000000000
-      internalID: 67926103340967526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arrows_2
-      rect:
-        serializedVersion: 2
-        x: 3258
-        y: 619
-        width: 361
-        height: 459
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 177b5372e8da637d0800000000000000
-      internalID: -2938970880757876879
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arrows_3
-      rect:
-        serializedVersion: 2
-        x: 3286
-        y: 312
-        width: 791
-        height: 453
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5bc5817587ae33e40800000000000000
-      internalID: 5635105361348811957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arrows_4
-      rect:
-        serializedVersion: 2
-        x: 458
+        x: 1925
         y: 0
-        width: 361
-        height: 460
+        width: 234
+        height: 553
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1224ef2c99b0cf9a0800000000000000
-      internalID: -6198066232139300319
+      spriteID: 9e92ef48bf57829f0800000000000000
+      internalID: -493014436068578839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: arrows_5
+      name: pauze menu frame__3
       rect:
         serializedVersion: 2
-        x: 3258
-        y: 0
-        width: 361
-        height: 460
+        x: 2149
+        y: 56
+        width: 1935
+        height: 466
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,8 +196,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 285dd26ab14b981c0800000000000000
-      internalID: -4500868321734961790
+      spriteID: 14879aeef934c8c70800000000000000
+      internalID: 8974622511625500737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pauze menu frame__4
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 20
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3f7d6b531c611f0800000000000000
+      internalID: -1074459024636251151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pauze menu frame__5
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 20
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56cfc402ccc3e9f60800000000000000
+      internalID: 8042932831943195749
       vertices: []
       indices: 
       edges: []
@@ -260,12 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      arrows_0: -2429919002490121231
-      arrows_1: 67926103340967526
-      arrows_2: -2938970880757876879
-      arrows_3: 5635105361348811957
-      arrows_4: -6198066232139300319
-      arrows_5: -4500868321734961790
+      pauze menu frame__0: -5448196186523468547
+      pauze menu frame__1: 5712122675905126639
+      pauze menu frame__2: -493014436068578839
+      pauze menu frame__3: 8974622511625500737
+      pauze menu frame__4: -1074459024636251151
+      pauze menu frame__5: 8042932831943195749
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
