@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class AttackBox : MonoBehaviour
 {
-
+    public static event Action OnPogoAttack;
     [Header("Ground Check")]
     
     public Transform groundCheck;
@@ -103,6 +103,8 @@ public class AttackBox : MonoBehaviour
                 playerRigidbody.gravityScale = 0;
                 playerRigidbody.AddForce(rightDiagonal * moveForce);
                 rightAttackActive = true;
+                
+                
             }
             //Down left attack
             if (Input.GetKeyDown(KeyCode.E) && faceDirection == 1 && Input.GetKey(KeyCode.S))
