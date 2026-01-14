@@ -1,4 +1,5 @@
 using System;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -44,6 +45,14 @@ public class AttackBox : MonoBehaviour
         attackBoxUp.SetActive(false);
         attackBoxDownRight.SetActive(false);
         attackBoxDownLeft.SetActive(false);
+
+        pogo.OnPogoHit += PogoHit;
+    }
+
+    private void PogoHit()
+    {
+        attackBoxDownRight.SetActive(false);
+        attackBoxDownLeft.SetActive(false);
     }
 
     void Update()
@@ -60,6 +69,8 @@ public class AttackBox : MonoBehaviour
             leftAttackActive = false;
             rightAttackActive = false;
         }
+
+        
 
         //Determines which way the player is facing
         if (Input.GetKeyDown(KeyCode.D))
@@ -86,6 +97,7 @@ public class AttackBox : MonoBehaviour
             //Down Right attack
             if (Input.GetKeyDown(KeyCode.E) && faceDirection == 0 && Input.GetKey(KeyCode.S))
             {
+                playerRigidbody.linearVelocity = Vector3.zero;
                 attackTimer = 0f;
                 attackBoxDownRight.SetActive(true);
                 playerRigidbody.gravityScale = 0;
@@ -95,6 +107,8 @@ public class AttackBox : MonoBehaviour
             //Down left attack
             if (Input.GetKeyDown(KeyCode.E) && faceDirection == 1 && Input.GetKey(KeyCode.S))
             {
+                
+                playerRigidbody.linearVelocity = Vector3.zero;
                 attackTimer = 0f;
                 attackBoxDownLeft.SetActive(true);
                 playerRigidbody.gravityScale = 0;
