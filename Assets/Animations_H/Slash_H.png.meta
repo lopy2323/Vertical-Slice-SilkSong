@@ -124,12 +124,12 @@ TextureImporter:
       name: Slash_H_0
       rect:
         serializedVersion: 2
-        x: 166
-        y: 764
-        width: 435
-        height: 263
+        x: 0
+        y: 600
+        width: 600
+        height: 600
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -146,12 +146,12 @@ TextureImporter:
       name: Slash_H_1
       rect:
         serializedVersion: 2
-        x: 725
-        y: 758
-        width: 349
-        height: 280
+        x: 600
+        y: 600
+        width: 600
+        height: 600
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -168,12 +168,12 @@ TextureImporter:
       name: Slash_H_2
       rect:
         serializedVersion: 2
-        x: 898
-        y: 757
-        width: 25
-        height: 12
+        x: 1200
+        y: 600
+        width: 600
+        height: 600
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -190,12 +190,12 @@ TextureImporter:
       name: Slash_H_3
       rect:
         serializedVersion: 2
-        x: 1391
-        y: 749
-        width: 248
-        height: 289
+        x: 0
+        y: 0
+        width: 600
+        height: 600
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -212,12 +212,12 @@ TextureImporter:
       name: Slash_H_4
       rect:
         serializedVersion: 2
-        x: 140
-        y: 91
-        width: 394
-        height: 419
+        x: 600
+        y: 0
+        width: 600
+        height: 600
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,12 +234,12 @@ TextureImporter:
       name: Slash_H_5
       rect:
         serializedVersion: 2
-        x: 713
-        y: 95
-        width: 377
-        height: 439
+        x: 1200
+        y: 0
+        width: 600
+        height: 600
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -252,55 +252,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Slash_H_6
-      rect:
-        serializedVersion: 2
-        x: 1279
-        y: 279
-        width: 27
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6b8485c1f3833f180800000000000000
-      internalID: -9082854179766515530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slash_H_7
-      rect:
-        serializedVersion: 2
-        x: 1322
-        y: 93
-        width: 401
-        height: 442
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a98c2f9f768fe9330800000000000000
-      internalID: 3719683467713366170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1d718a0134a51e74c962abbce875ff73
     internalID: 0
     vertices: []
     indices: 
@@ -308,7 +264,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":2.0},"gridSpriteSize":{"x":600.0,"y":600.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Slash_H_0: -5331964498524963719
       Slash_H_1: 7104730863782789420
@@ -316,8 +274,6 @@ TextureImporter:
       Slash_H_3: -6837495814884824292
       Slash_H_4: -5559839630220553150
       Slash_H_5: 4280583863462075352
-      Slash_H_6: -9082854179766515530
-      Slash_H_7: 3719683467713366170
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
