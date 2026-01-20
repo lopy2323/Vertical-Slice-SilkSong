@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 62feb83b342770342a96a88a980cf8b7
+guid: c7c9d97d80b627847875494eb6a7b1c7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6861585961372657152
-    second: tacks tool_0
+      213: -3538149499212941326
+    second: Run_Hornet_0
+  - first:
+      213: 4863524577212671518
+    second: Run_Hornet_1
+  - first:
+      213: -3820781069629431931
+    second: Run_Hornet_2
+  - first:
+      213: -3509773111352663464
+    second: Run_Hornet_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +105,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tacks tool_0
+      name: Run_Hornet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 306
-        height: 360
+        x: 135
+        y: 692
+        width: 339
+        height: 403
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 006ac6fd310493f50800000000000000
-      internalID: 6861585961372657152
+      spriteID: 2f7bf21c6c7f5eec0800000000000000
+      internalID: -3538149499212941326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Hornet_1
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 686
+        width: 345
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16a42db5d5be7340800000000000000
+      internalID: 4863524577212671518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Hornet_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 91
+        width: 335
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f533c4cdbd9fac0800000000000000
+      internalID: -3820781069629431931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Hornet_3
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 91
+        width: 335
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8526b9763f7ca4fc0800000000000000
+      internalID: -3509773111352663464
       vertices: []
       indices: 
       edges: []
@@ -148,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tacks tool_0: 6861585961372657152
+      Run_Hornet_0: -3538149499212941326
+      Run_Hornet_1: 4863524577212671518
+      Run_Hornet_2: -3820781069629431931
+      Run_Hornet_3: -3509773111352663464
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

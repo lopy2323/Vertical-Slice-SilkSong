@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 62feb83b342770342a96a88a980cf8b7
+guid: db0b21a063c03124f8e23956559ebe0b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6861585961372657152
-    second: tacks tool_0
+      213: -1588792061686171292
+    second: daggers_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,29 +96,16 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tacks tool_0
+      name: daggers_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 306
+        width: 328
         height: 360
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 006ac6fd310493f50800000000000000
-      internalID: 6861585961372657152
+      spriteID: 4693c35a90a73f9e0800000000000000
+      internalID: -1588792061686171292
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tacks tool_0: 6861585961372657152
+      daggers_0: -1588792061686171292
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

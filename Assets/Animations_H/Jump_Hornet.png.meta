@@ -1,52 +1,49 @@
 fileFormatVersion: 2
-guid: fa5f6f335c1d3954d909e980b702fe55
+guid: d7e84bbc84f98bf499910ef1f656dec2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3263153076064283850
-    second: Pogo_H_0
+      213: -3106155080551385987
+    second: Jump_Hornet_0
   - first:
-      213: 6522612271876074994
-    second: Pogo_H_1
+      213: -5689466129735143741
+    second: Jump_Hornet_1
   - first:
-      213: -341112633933970299
-    second: Pogo_H_2
+      213: -8879985984874484676
+    second: Jump_Hornet_2
   - first:
-      213: -1480015206693630203
-    second: Pogo_H_3
+      213: -2190217757037354377
+    second: Jump_Hornet_3
   - first:
-      213: 8745796051010616715
-    second: Pogo_H_4
+      213: -6840748446922663127
+    second: Jump_Hornet_4
   - first:
-      213: 7144208650944659912
-    second: Pogo_H_5
+      213: 7661552031519639959
+    second: Jump_Hornet_5
   - first:
-      213: 3503738069212538552
-    second: Pogo_H_6
+      213: 8280105047324747859
+    second: Jump_Hornet_6
   - first:
-      213: 2883332695985814448
-    second: Pogo_H_7
+      213: 7376732226992329092
+    second: Jump_Hornet_7
   - first:
-      213: -6111074043564657568
-    second: Pogo_H_8
+      213: -925186086229192088
+    second: Jump_Hornet_8
   - first:
-      213: -5160363084805124853
-    second: Pogo_H_9
+      213: -6113466206348052949
+    second: Jump_Hornet_9
   - first:
-      213: -1650800697421268177
-    second: Pogo_H_10
+      213: 8999206948505343933
+    second: Jump_Hornet_10
   - first:
-      213: -912671443223791649
-    second: Pogo_H_11
+      213: 1699907612132848447
+    second: Jump_Hornet_11
   - first:
-      213: 5763133335971346529
-    second: Pogo_H_12
+      213: -2673122614544906012
+    second: Jump_Hornet_12
   - first:
-      213: 1022923376792187695
-    second: Pogo_H_13
-  - first:
-      213: 6715472544159651809
-    second: Pogo_H_14
+      213: 253642832247957854
+    second: Jump_Hornet_13
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -138,260 +135,313 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pogo_H_0
+      name: Jump_Hornet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1200
-        width: 600
-        height: 600
+        x: 130
+        y: 1884
+        width: 358
+        height: 448
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6331775f093f6b2d0800000000000000
-      internalID: -3263153076064283850
+      spriteID: d74b57e4968b4e4d0800000000000000
+      internalID: -3106155080551385987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pogo_H_1
+      name: Jump_Hornet_1
       rect:
         serializedVersion: 2
-        x: 600
-        y: 1200
-        width: 600
-        height: 600
+        x: 745
+        y: 1871
+        width: 284
+        height: 404
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2fde6c09d49f48a50800000000000000
-      internalID: 6522612271876074994
+      spriteID: 3ce2587f2b4fa01b0800000000000000
+      internalID: -5689466129735143741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pogo_H_2
+      name: Jump_Hornet_2
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 1200
-        width: 600
-        height: 600
+        x: 1355
+        y: 1884
+        width: 267
+        height: 377
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 584c7f1eddf144bf0800000000000000
-      internalID: -341112633933970299
+      spriteID: c3ceb118bc3f3c480800000000000000
+      internalID: -8879985984874484676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pogo_H_3
+      name: Jump_Hornet_3
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 1200
-        width: 600
-        height: 600
+        x: 1969
+        y: 1875
+        width: 279
+        height: 414
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50f89dec20ee57be0800000000000000
-      internalID: -1480015206693630203
+      spriteID: 7722903ed88ca91e0800000000000000
+      internalID: -2190217757037354377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pogo_H_4
+      name: Jump_Hornet_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 600
-        width: 600
-        height: 600
+        x: 168
+        y: 1289
+        width: 322
+        height: 401
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8d7082db2f4f5970800000000000000
-      internalID: 8745796051010616715
+      spriteID: 92b9e570887c011a0800000000000000
+      internalID: -6840748446922663127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pogo_H_5
+      name: Jump_Hornet_5
       rect:
         serializedVersion: 2
-        x: 600
-        y: 600
-        width: 600
-        height: 600
+        x: 773
+        y: 1281
+        width: 292
+        height: 380
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c144d89ae3552360800000000000000
-      internalID: 7144208650944659912
+      spriteID: 79986e2eafc435a60800000000000000
+      internalID: 7661552031519639959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pogo_H_6
+      name: Jump_Hornet_6
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 600
-        width: 600
-        height: 600
+        x: 1371
+        y: 1273
+        width: 277
+        height: 357
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b62d69d537cf9030800000000000000
-      internalID: 3503738069212538552
+      spriteID: 358e5b0bba7d8e270800000000000000
+      internalID: 8280105047324747859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pogo_H_7
+      name: Jump_Hornet_7
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 600
-        width: 600
-        height: 600
+        x: 1970
+        y: 1270
+        width: 276
+        height: 368
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bbf0897fc7a30820800000000000000
-      internalID: 2883332695985814448
+      spriteID: 481dd0970ea6f5660800000000000000
+      internalID: 7376732226992329092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pogo_H_8
+      name: Jump_Hornet_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 600
-        height: 600
+        x: 147
+        y: 682
+        width: 303
+        height: 367
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 064f735098a113ba0800000000000000
-      internalID: -6111074043564657568
+      spriteID: 862dc2b08241923f0800000000000000
+      internalID: -925186086229192088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pogo_H_9
+      name: Jump_Hornet_9
       rect:
         serializedVersion: 2
-        x: 600
-        y: 0
-        width: 600
-        height: 600
+        x: 713
+        y: 682
+        width: 362
+        height: 266
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b0dc62a7d15b268b0800000000000000
-      internalID: -5160363084805124853
+      spriteID: b26f44830ea982ba0800000000000000
+      internalID: -6113466206348052949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pogo_H_10
+      name: Jump_Hornet_10
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 0
-        width: 600
-        height: 600
+        x: 1292
+        y: 667
+        width: 363
+        height: 292
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2bfc33138d2719e0800000000000000
-      internalID: -1650800697421268177
+      spriteID: db753e13a0b93ec70800000000000000
+      internalID: 8999206948505343933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Hornet_11
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 681
+        width: 399
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33392c77f8479710800000000000000
+      internalID: 1699907612132848447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Hornet_12
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 77
+        width: 383
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8ccf6152927ead0800000000000000
+      internalID: -2673122614544906012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Hornet_13
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 80
+        width: 380
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59a6f3efce158300800000000000000
+      internalID: 253642832247957854
       vertices: []
       indices: 
       edges: []
@@ -410,17 +460,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Pogo_H_0: -3263153076064283850
-      Pogo_H_1: 6522612271876074994
-      Pogo_H_10: -1650800697421268177
-      Pogo_H_2: -341112633933970299
-      Pogo_H_3: -1480015206693630203
-      Pogo_H_4: 8745796051010616715
-      Pogo_H_5: 7144208650944659912
-      Pogo_H_6: 3503738069212538552
-      Pogo_H_7: 2883332695985814448
-      Pogo_H_8: -6111074043564657568
-      Pogo_H_9: -5160363084805124853
+      Jump_Hornet_0: -3106155080551385987
+      Jump_Hornet_1: -5689466129735143741
+      Jump_Hornet_10: 8999206948505343933
+      Jump_Hornet_11: 1699907612132848447
+      Jump_Hornet_12: -2673122614544906012
+      Jump_Hornet_13: 253642832247957854
+      Jump_Hornet_2: -8879985984874484676
+      Jump_Hornet_3: -2190217757037354377
+      Jump_Hornet_4: -6840748446922663127
+      Jump_Hornet_5: 7661552031519639959
+      Jump_Hornet_6: 8280105047324747859
+      Jump_Hornet_7: 7376732226992329092
+      Jump_Hornet_8: -925186086229192088
+      Jump_Hornet_9: -6113466206348052949
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 62feb83b342770342a96a88a980cf8b7
+guid: b354723ed97f79e49aff29f22dec37dd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6861585961372657152
-    second: tacks tool_0
+      213: -1763285050987637716
+    second: pauze menu_0
+  - first:
+      213: 4893852373077889051
+    second: pauze menu_1
+  - first:
+      213: -1104747059840054343
+    second: pauze menu_2
+  - first:
+      213: 6893547436787736877
+    second: pauze menu_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +105,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tacks tool_0
+      name: pauze menu_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 306
-        height: 360
+        y: 2729
+        width: 3962
+        height: 924
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 006ac6fd310493f50800000000000000
-      internalID: 6861585961372657152
+      spriteID: c241022a69d8787e0800000000000000
+      internalID: -1763285050987637716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pauze menu_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 56
+        width: 1802
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b109288fdc47ae340800000000000000
+      internalID: 4893852373077889051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pauze menu_2
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 0
+        width: 234
+        height: 553
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb839bf6662ba0f0800000000000000
+      internalID: -1104747059840054343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pauze menu_3
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 56
+        width: 1802
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21a904cedccaaf50800000000000000
+      internalID: 6893547436787736877
       vertices: []
       indices: 
       edges: []
@@ -148,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tacks tool_0: 6861585961372657152
+      pauze menu_0: -1763285050987637716
+      pauze menu_1: 4893852373077889051
+      pauze menu_2: -1104747059840054343
+      pauze menu_3: 6893547436787736877
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
