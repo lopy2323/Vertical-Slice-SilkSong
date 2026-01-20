@@ -3705,7 +3705,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &687904864
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5319,7 +5319,7 @@ SpriteRenderer:
   m_Size: {x: 11.633398, y: 23.449999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1071626189
@@ -10443,6 +10443,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 4267921900323382333, guid: 82f0137b352a7b64a89bcbbb1bf94c5d, type: 3}
+    - target: {fileID: 2250362831619990046, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2250362831619990046, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
