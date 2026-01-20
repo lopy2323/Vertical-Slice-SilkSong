@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: df4a18ea77434f7459c02ed8b2706ca6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -270643164091291918
+    second: Skarrwing_Attack_0
+  - first:
+      213: -7281308401170325923
+    second: Skarrwing_Attack_1
+  - first:
+      213: 300612772237528013
+    second: Skarrwing_Attack_2
+  - first:
+      213: -694783876126644689
+    second: Skarrwing_Attack_3
+  - first:
+      213: -3952896008536460277
+    second: Skarrwing_Attack_4
+  - first:
+      213: 8226960255234871826
+    second: Skarrwing_Attack_5
+  - first:
+      213: -6235589404373917733
+    second: Skarrwing_Attack_6
+  - first:
+      213: -1395603459783121885
+    second: Skarrwing_Attack_7
+  - first:
+      213: -5932948353518583087
+    second: Skarrwing_Attack_8
+  - first:
+      213: -4292957279810198577
+    second: Skarrwing_Attack_9
+  - first:
+      213: 6646281427129959867
+    second: Skarrwing_Attack_10
+  - first:
+      213: 4897942267926056698
+    second: Skarrwing_Attack_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skarrwing_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 496
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f66377e97b7e3cf0800000000000000
+      internalID: -270643164091291918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skarrwing_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 46
+        width: 468
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5edc20569893fa90800000000000000
+      internalID: -7281308401170325923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skarrwing_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 40
+        width: 445
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbc92049bdfb2400800000000000000
+      internalID: 300612772237528013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skarrwing_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 61
+        width: 516
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f266dcbeeb1ab56f0800000000000000
+      internalID: -694783876126644689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skarrwing_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 71
+        width: 451
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04ff19060e7429c0800000000000000
+      internalID: -3952896008536460277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skarrwing_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 352
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212188a83c80c2270800000000000000
+      internalID: 8226960255234871826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skarrwing_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 87
+        width: 505
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf5a1b697cb679a0800000000000000
+      internalID: -6235589404373917733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skarrwing_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 46
+        width: 497
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324225c2c02d1ace0800000000000000
+      internalID: -1395603459783121885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skarrwing_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 3515
+        y: 61
+        width: 490
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d249c518eee9ada0800000000000000
+      internalID: -5932948353518583087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skarrwing_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 313
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc36cfc591a5c64c0800000000000000
+      internalID: -4292957279810198577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skarrwing_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 3523
+        y: 282
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb58b559eb55c3c50800000000000000
+      internalID: 6646281427129959867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skarrwing_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 207
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe8a12da8cf8f340800000000000000
+      internalID: 4897942267926056698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Skarrwing_Attack_0: -270643164091291918
+      Skarrwing_Attack_1: -7281308401170325923
+      Skarrwing_Attack_10: 6646281427129959867
+      Skarrwing_Attack_11: 4897942267926056698
+      Skarrwing_Attack_2: 300612772237528013
+      Skarrwing_Attack_3: -694783876126644689
+      Skarrwing_Attack_4: -3952896008536460277
+      Skarrwing_Attack_5: 8226960255234871826
+      Skarrwing_Attack_6: -6235589404373917733
+      Skarrwing_Attack_7: -1395603459783121885
+      Skarrwing_Attack_8: -5932948353518583087
+      Skarrwing_Attack_9: -4292957279810198577
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
