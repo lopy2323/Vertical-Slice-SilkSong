@@ -13,7 +13,7 @@ TagManager:
   - ground
   - Water
   - UI
-  - post
+  - 
   - 
   - 
   - 
@@ -43,8 +43,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: CameraSortingLayer
-    uniqueID: 1961714365
+  - name: Behind2
+    uniqueID: 3937067217
+    locked: 0
+  - name: Behind1
+    uniqueID: 3558651639
+    locked: 0
+  - name: Sprite
+    uniqueID: 293460245
+    locked: 0
+  - name: Front1
+    uniqueID: 241245031
+    locked: 0
+  - name: Front2
+    uniqueID: 2915725821
     locked: 0
   m_RenderingLayers:
   - Default
