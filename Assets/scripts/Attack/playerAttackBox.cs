@@ -103,8 +103,8 @@ public class AttackBox : MonoBehaviour
                 playerRigidbody.gravityScale = 0;
                 playerRigidbody.AddForce(rightDiagonal * moveForce);
                 rightAttackActive = true;
-                
-                
+
+                OnPogoAttack?.Invoke();
             }
             //Down left attack
             if (Input.GetKeyDown(KeyCode.E) && faceDirection == 1 && Input.GetKey(KeyCode.S))
@@ -116,6 +116,8 @@ public class AttackBox : MonoBehaviour
                 playerRigidbody.gravityScale = 0;
                 playerRigidbody.AddForce(leftDiagonal * moveForce);
                 leftAttackActive = true;
+
+                OnPogoAttack?.Invoke();
             }
         }
         
