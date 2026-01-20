@@ -19,7 +19,7 @@ public class Hornet : MonoBehaviour
     private Animator animator;
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+    //    rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
 
