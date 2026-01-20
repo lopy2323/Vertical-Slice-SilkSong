@@ -1,28 +1,25 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/sprites/Placeholder/background/singleFir.png.meta
-guid: 65d117a89311d2646ab52955ca719df8
+guid: 82f0137b352a7b64a89bcbbb1bf94c5d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3151749589703196776
-    second: singleFir_0
-========
-guid: dd44f581c21113d43a856732e2c68e80
-TextureImporter:
-  internalIDToNameTable:
+      213: 4267921900323382333
+    second: Idle_Hornet 1_0
   - first:
-      213: 3838390596151660417
-    second: Spin_Hornet_0
+      213: -4173855277690955601
+    second: Idle_Hornet 1_1
   - first:
-      213: 3546452975354571465
-    second: Spin_Hornet_1
+      213: -1437621712527701508
+    second: Idle_Hornet 1_2
   - first:
-      213: 3886941577883450101
-    second: Spin_Hornet_2
+      213: -8176066591344149073
+    second: Idle_Hornet 1_3
   - first:
-      213: 1341617248049011488
-    second: Spin_Hornet_3
->>>>>>>> Razor-Animations-Hornet:Assets/Animations_H/Spin_Hornet.png.meta
+      213: -7595609731912334771
+    second: Idle_Hornet 1_4
+  - first:
+      213: -6176129244333557240
+    second: Idle_Hornet 1_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,23 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/sprites/Placeholder/background/singleFir.png.meta
-      name: singleFir_0
+      name: Idle_Hornet 1_0
       rect:
         serializedVersion: 2
-        x: 110
-        y: 305
-        width: 846
-        height: 1433
-========
-      name: Spin_Hornet_0
-      rect:
-        serializedVersion: 2
-        x: 139
-        y: 732
-        width: 270
-        height: 337
->>>>>>>> Razor-Animations-Hornet:Assets/Animations_H/Spin_Hornet.png.meta
+        x: 182
+        y: 677
+        width: 227
+        height: 445
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,24 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/sprites/Placeholder/background/singleFir.png.meta
-      spriteID: 8600e3b9d834dbb20800000000000000
-      internalID: 3151749589703196776
-========
-      spriteID: 18fc1d819e3b44530800000000000000
-      internalID: 3838390596151660417
+      spriteID: d34a2ed1b54ba3b30800000000000000
+      internalID: 4267921900323382333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spin_Hornet_1
+      name: Idle_Hornet 1_1
       rect:
         serializedVersion: 2
-        x: 698
-        y: 736
-        width: 342
-        height: 253
+        x: 782
+        y: 677
+        width: 230
+        height: 445
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9cae2a0f038873130800000000000000
-      internalID: 3546452975354571465
+      spriteID: fa8575d2dbc7316c0800000000000000
+      internalID: -4173855277690955601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spin_Hornet_2
+      name: Idle_Hornet 1_2
       rect:
         serializedVersion: 2
-        x: 176
-        y: 145
-        width: 255
-        height: 338
+        x: 1382
+        y: 677
+        width: 236
+        height: 443
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fa707c65c031f530800000000000000
-      internalID: 3886941577883450101
+      spriteID: cf9c5675baa8c0ce0800000000000000
+      internalID: -1437621712527701508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spin_Hornet_3
+      name: Idle_Hornet 1_3
       rect:
         serializedVersion: 2
-        x: 720
-        y: 128
-        width: 365
-        height: 268
+        x: 182
+        y: 77
+        width: 232
+        height: 445
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,9 +196,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02b9f7667c16e9210800000000000000
-      internalID: 1341617248049011488
->>>>>>>> Razor-Animations-Hornet:Assets/Animations_H/Spin_Hornet.png.meta
+      spriteID: fad3efaf0c6c88e80800000000000000
+      internalID: -8176066591344149073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Hornet 1_4
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 77
+        width: 228
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d428ddc2139f69690800000000000000
+      internalID: -7595609731912334771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Hornet 1_5
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 77
+        width: 228
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ab890cc2bf94aa0800000000000000
+      internalID: -6176129244333557240
       vertices: []
       indices: 
       edges: []
@@ -234,14 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-<<<<<<<< HEAD:Assets/sprites/Placeholder/background/singleFir.png.meta
-      singleFir_0: 3151749589703196776
-========
-      Spin_Hornet_0: 3838390596151660417
-      Spin_Hornet_1: 3546452975354571465
-      Spin_Hornet_2: 3886941577883450101
-      Spin_Hornet_3: 1341617248049011488
->>>>>>>> Razor-Animations-Hornet:Assets/Animations_H/Spin_Hornet.png.meta
+      Idle_Hornet 1_0: 4267921900323382333
+      Idle_Hornet 1_1: -4173855277690955601
+      Idle_Hornet 1_2: -1437621712527701508
+      Idle_Hornet 1_3: -8176066591344149073
+      Idle_Hornet 1_4: -7595609731912334771
+      Idle_Hornet 1_5: -6176129244333557240
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
