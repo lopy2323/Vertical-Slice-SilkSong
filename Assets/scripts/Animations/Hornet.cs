@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -13,19 +14,30 @@ public class Hornet : MonoBehaviour
 
     private bool isGrounded;
     private bool pogoAttack;
+    private bool attacking;
 
     private Animator animator;
     void Start()
     {
-        //rb = GetComponent<Rigidbody2D>();
+    //    rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+
+        //playerAttackBox.OnPogoAttack += GetEnemyPoints;
     }
 
     void Update()
     {
         float moveInput = Input.GetAxis("Horizontal");
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Debug.Log("!!!!");
+            Attack();
+        }
+
         SetAnimation(moveInput);
+        
     }
 
     private void FixedUpdate()
@@ -35,85 +47,71 @@ public class Hornet : MonoBehaviour
 
     private void SetAnimation(float moveInput)
     {
-        if (isGrounded)
+        if (!attacking)
         {
-            animator.Play("Idle");
-        } 
-        else
-        {
-            if (rb.linearVelocityY > 0)
+            if (isGrounded)
             {
-                animator.Play("Jump");
-            } 
-            else if (rb.linearVelocityY < 0)
-            {
-                animator.Play("Fall");
-            } 
-            else if (true)
-            {
-
-            }
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-        /*
-        if (isGrounded)
-        {
-            if (moveInput == 0)
-            {
-                rb.linearVelocityX = 0f;
-                animator.Play("Idle_(Temporary)");
-            }
-            else if (rb.linearVelocityX > 0)
-            {
-                sr.flipX = false;
-                animator.Play("Run_(Temporary)");
-            }
-            else if (rb.linearVelocityX < 0)
-            {
-                sr.flipX = true;
-                animator.Play("Run_(Temporary)");
-            }
-        }
-        else
-        {
-            if (rb.linearVelocityY > 0)
-            {
-                 if (rb.linearVelocityX > 0)
+                if (moveInput == 0)
+                {
+                    animator.Play("Idle");
+                }
+                else if (rb.linearVelocityX > 0)
                 {
                     sr.flipX = false;
-                    animator.Play("Jump_(Temporary)");
+                    animator.Play("Run");
                 }
                 else if (rb.linearVelocityX < 0)
                 {
                     sr.flipX = true;
-                    animator.Play("Jump_(Temporary)");
+                    animator.Play("Run");
                 }
+
             }
-            else if (rb.linearVelocityY <= 0)
+            else
             {
-                if (rb.linearVelocityX > 0)
+                if (rb.linearVelocityY > 0)
                 {
-                    sr.flipX = false;
-                    animator.Play("Fall_(Temporary)");
+                    if (rb.linearVelocityX >= 0)
+                    {
+                        sr.flipX = false;
+                        animator.Play("Jump");
+                    }
+                    else if (rb.linearVelocityX <= 0)
+                    {
+                        sr.flipX = true;
+                        animator.Play("Jump");
+                    }
                 }
-                else if (rb.linearVelocityX < 0)
+                else if (rb.linearVelocityY <= 0)
                 {
-                    sr.flipX = true;
-                    animator.Play("Fall_(Temporary)");
+                    if (rb.linearVelocityX >= 0)
+                    {
+                        sr.flipX = false;
+                        animator.Play("Fall");
+                    }
+                    else if (rb.linearVelocityX <= 0)
+                    {
+                        sr.flipX = true;
+                        animator.Play("Fall");
+                    }
+                }
+                else if (true)
+                {
+
                 }
             }
-        }*/
+        }
+    }
+
+    private IEnumerator Attack()
+    {
+        
+            Debug.Log("AAAAAAH");
+
+            attacking = true;
+            animator.Play("Slash");
+            yield return new WaitForSeconds(0.25f);
+            attacking = false;   
     }
 
 }

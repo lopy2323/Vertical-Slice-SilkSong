@@ -4628,7 +4628,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &926038989
 Transform:
   m_ObjectHideFlags: 0
@@ -4660,11 +4660,11 @@ GameObject:
   - component: {fileID: 931794798}
   m_Layer: 0
   m_Name: Pogo_redflower_0 (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &931794797
 Transform:
   m_ObjectHideFlags: 0
@@ -5450,6 +5450,43 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1087673499 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5520717605748035757, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
+  m_PrefabInstance: {fileID: 444298746062943086}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1087673504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087673499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineBrain
+  ShowDebugText: 0
+  ShowCameraFrustum: 1
+  IgnoreTimeScale: 0
+  WorldUpOverride: {fileID: 0}
+  ChannelMask: -1
+  UpdateMethod: 2
+  BlendUpdateMethod: 1
+  LensModeOverride:
+    Enabled: 0
+    DefaultMode: 2
+  DefaultBlend:
+    Style: 1
+    Time: 2
+    CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  CustomBlends: {fileID: 0}
 --- !u!1 &1114543153
 GameObject:
   m_ObjectHideFlags: 0
@@ -5666,7 +5703,7 @@ GameObject:
   - component: {fileID: 1198532743}
   m_Layer: 0
   m_Name: Pogo_redflower_0 (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7145,13 +7182,14 @@ GameObject:
   - component: {fileID: 1512390365}
   - component: {fileID: 1512390367}
   - component: {fileID: 1512390366}
+  - component: {fileID: 1512390368}
   m_Layer: 0
   m_Name: Pogo_redflower_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1512390365
 Transform:
   m_ObjectHideFlags: 0
@@ -7261,6 +7299,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1512390368
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512390364}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1524772965
 GameObject:
   m_ObjectHideFlags: 0
@@ -7427,7 +7492,7 @@ GameObject:
   - component: {fileID: 1546582786}
   m_Layer: 0
   m_Name: Pogo_redflower_0 (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7798,7 +7863,7 @@ GameObject:
   - component: {fileID: 1623254118}
   m_Layer: 0
   m_Name: Pogo_redflower_0 (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8100,6 +8165,11 @@ GameObject:
 --- !u!50 &1672239209 stripped
 Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 1967182833538149761, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
+  m_PrefabInstance: {fileID: 444298746062943086}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1672239212 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6242160877959227049, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
   m_PrefabInstance: {fileID: 444298746062943086}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1716836300
@@ -9189,13 +9259,14 @@ GameObject:
   - component: {fileID: 1912093977}
   - component: {fileID: 1912093979}
   - component: {fileID: 1912093978}
+  - component: {fileID: 1912093980}
   m_Layer: 0
   m_Name: Pogo_redflower_0 (9)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1912093977
 Transform:
   m_ObjectHideFlags: 0
@@ -9305,6 +9376,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1912093980
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912093976}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1942443607
 GameObject:
   m_ObjectHideFlags: 0
@@ -9712,6 +9810,101 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1996767913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1996767916}
+  - component: {fileID: 1996767915}
+  - component: {fileID: 1996767914}
+  m_Layer: 0
+  m_Name: CinemachineCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1996767914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996767913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b617507da6d07e749b7efdb34e1173e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineFollow
+  TrackerSettings:
+    BindingMode: 4
+    PositionDamping: {x: 1, y: 1, z: 1}
+    AngularDampingMode: 0
+    RotationDamping: {x: 1, y: 1, z: 1}
+    QuaternionDamping: 1
+  FollowOffset: {x: 0, y: 0, z: -20}
+--- !u!114 &1996767915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996767913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineCamera
+  Priority:
+    Enabled: 0
+    m_Value: 0
+  OutputChannel: 1
+  StandbyUpdate: 2
+  m_StreamingVersion: 20241001
+  m_LegacyPriority: 0
+  Target:
+    TrackingTarget: {fileID: 1672239212}
+    LookAtTarget: {fileID: 0}
+    CustomLookAtTarget: 0
+  Lens:
+    FieldOfView: 60
+    OrthographicSize: 5
+    NearClipPlane: 0.3
+    FarClipPlane: 1000
+    Dutch: 0
+    ModeOverride: 0
+    PhysicalProperties:
+      GateFit: 2
+      SensorSize: {x: 21.946, y: 16.002}
+      LensShift: {x: 0, y: 0}
+      FocusDistance: 10
+      Iso: 200
+      ShutterSpeed: 0.005
+      Aperture: 16
+      BladeCount: 5
+      Curvature: {x: 2, y: 11}
+      BarrelClipping: 0.25
+      Anamorphism: 0
+  BlendHint: 0
+--- !u!4 &1996767916
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996767913}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.176655, y: -2.76, z: -20}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2012284582
 GameObject:
   m_ObjectHideFlags: 0
@@ -10115,7 +10308,7 @@ Animator:
   m_GameObject: {fileID: 2123490540}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5d61dfc2067102648bcbe5c2c994279f, type: 2}
+  m_Controller: {fileID: 9100000, guid: 01ad09a3edcbb4c40b54b03ddc7db7f5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -10264,12 +10457,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2250362831619990046, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
+      propertyPath: m_Size.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2250362831619990046, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
+      propertyPath: m_Size.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2250362831619990046, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8c8f31273210d06498006ff6a0609fbc, type: 3}
+      objectReference: {fileID: 4267921900323382333, guid: 82f0137b352a7b64a89bcbbb1bf94c5d, type: 3}
+    - target: {fileID: 2250362831619990046, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2772696581443389266, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
       propertyPath: jumpForce
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3894957294965187345, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5945797379419147594, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
       propertyPath: m_Size.y
@@ -10324,9 +10533,25 @@ PrefabInstance:
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6604128434853803823, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
+      propertyPath: pogoSpeed
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6604128434853803823, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
       propertyPath: playerGameObject
       value: 
       objectReference: {fileID: 1672239206}
+    - target: {fileID: 8334624404186826417, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8334624404186826417, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8334624404186826417, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20
+      objectReference: {fileID: 0}
     - target: {fileID: 8334624404186826417, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
@@ -10343,6 +10568,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8413956968570447913, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8757469710358740801, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
       propertyPath: m_Name
       value: playerWithCorrectBoxxes
@@ -10357,6 +10586,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8786079063015213088, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2123490544}
+    - targetCorrespondingSourceObject: {fileID: 5520717605748035757, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1087673504}
   m_SourcePrefab: {fileID: 100100000, guid: eadd8e5798945d3499b2a73bd06232e6, type: 3}
 --- !u!1001 &2870395467790054074
 PrefabInstance:
@@ -10504,3 +10736,4 @@ SceneRoots:
   - {fileID: 1524772966}
   - {fileID: 1723992727}
   - {fileID: 926038989}
+  - {fileID: 1996767916}

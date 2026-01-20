@@ -18,8 +18,9 @@ public class pogo : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            playerRigidbody.gravityScale = 6f;
-            playerRigidbody.AddForce(pogoDirection * pogoForce);
+            //playerRigidbody.gravityScale = 6f;
+           // playerRigidbody.AddForce(pogoDirection * pogoForce);
+           Debug.Log("Pogo Hit Invoked!");
             OnPogoHit.Invoke();
         }
         
