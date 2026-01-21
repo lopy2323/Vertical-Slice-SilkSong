@@ -105,12 +105,12 @@ public class Hornet : MonoBehaviour
     private IEnumerator Attack()
     {
         
-            Debug.Log("AAAAAAH");
-
-            attacking = true;
-            animator.Play("Slash");
-            yield return new WaitForSeconds(0.25f);
-            attacking = false;   
+        Debug.Log("AAAAAAH");
+        attacking = true;
+        animator.Play("Slash");
+        yield return new WaitForSeconds(0.25f);
+        attacking = false;
+        Debug.Log("Done Attacking");
     }
 
 }
